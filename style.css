@@ -1,0 +1,81 @@
+@font-face {
+    src: url(Font/ARCADECLASSIC.TTF);
+    font-family: antique;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(41, 39, 39);
+    color: white;
+    font-family: antique;
+}
+.container{
+    /* border: 1px solid pink; */
+    
+}
+/* Layouts */
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 2px;
+}
+.again,.check{
+    width:8rem;
+    height:3rem;
+    font-family: antique;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+h1{
+    text-align: center;
+    font-size:4rem ;
+}
+.upper{
+    /* border: 2px solid grey; */
+    padding-bottom: 4rem;
+    border-bottom: 4px solid white;
+}
+.number{
+    display: inline-block;
+    border: 2px solid white;
+    font-size: 4rem;
+    font-family: antique;
+    color: rgb(41, 39, 39);
+    background-color: white;
+    width: 10%;
+    text-align: center;
+    margin-top: -5rem;
+    margin-left: 45%;
+  
+
+}
+.lower{
+    display: flex;
+    justify-content: space-around;
+    font-size: 2rem;
+    padding-top: 3em;
+}
+.state{
+    margin-bottom: 2em;
+
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.ip-number{
+    width:220px;
+    height:110px;
+    color: white;
+    background-color: rgb(41, 39, 39);
+    border: .25rem double white;
+    font-family: antique;
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
